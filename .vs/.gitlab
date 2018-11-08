@@ -1,0 +1,13 @@
+{
+  "User": {
+    "Id": 1570875,
+    "Username": "Gyros",
+    "Name": "Gyros",
+    "Email": "gyrosplaygames@gmail.com",
+    "AvatarUrl": "https://secure.gravatar.com/avatar/441f2a39d966d2d40f9faeda40e86898?s=80&d=identicon",
+    "PrivateToken": "29daf9ae1796447c6d367b105db4167af82b134e0f7540d839c96cf747b54a9b",
+    "Host": "https://gitlab.com",
+    "TwoFactorEnabled": false,
+    "ApiVersion": 3
+  }
+}
