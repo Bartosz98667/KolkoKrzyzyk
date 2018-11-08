@@ -79,7 +79,7 @@ namespace KK
                 {
                     boxes[j].Source = new BitmapImage(new Uri(@"img/nic.bmp", UriKind.Relative));
                     boxes[j].Cursor = Cursors.Hand;
-                    if (yoursTour != tour)
+                    if (yoursTour != tour && network != 0)
                     {
                         boxes[j].Cursor = null;
                     }
@@ -184,7 +184,7 @@ namespace KK
                     Check();
                     ai = 1;
                 }
-                if (yoursTour != tour)
+                if (yoursTour != tour && network != 0)
                 {
                     Application.Current.Dispatcher.Invoke((Action)(() =>
                     {
@@ -195,7 +195,7 @@ namespace KK
                     }));
                 }
 
-                if (yoursTour == tour)
+                if (yoursTour == tour && network != 0)
                 {
                     Application.Current.Dispatcher.Invoke((Action)(() =>
                     {

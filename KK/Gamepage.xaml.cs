@@ -72,15 +72,13 @@ namespace KK
             {
                 byte[] byteTime = Encoding.ASCII.GetBytes("0");
                 ns.Write(byteTime, 0, byteTime.Length);
-
-                Logic.Move(0);
             }
             if (network == 2 && Logic.yoursTour == Logic.tour)
             {
                 byte[] byteTime = Encoding.ASCII.GetBytes("0");
                 ns.Write(byteTime, 0, byteTime.Length);
-                Logic.Move(0);
             }
+                Logic.Move(0);
         }
 
         private void p2_Click(object sender, MouseEventArgs e)
@@ -89,16 +87,15 @@ namespace KK
             {
                 byte[] byteTime = Encoding.ASCII.GetBytes("1");
                 ns.Write(byteTime, 0, byteTime.Length);
-
-                Logic.Move(1);
             }
             if (network == 2 && Logic.yoursTour == Logic.tour)
             {
                 byte[] byteTime = Encoding.ASCII.GetBytes("1");
                 ns.Write(byteTime, 0, byteTime.Length);
 
-                Logic.Move(1);
+                
             }
+            Logic.Move(1);
         }
 
         private void p3_Click(object sender, MouseEventArgs e)
@@ -107,16 +104,14 @@ namespace KK
             {
                 byte[] byteTime = Encoding.ASCII.GetBytes("2");
                 ns.Write(byteTime, 0, byteTime.Length);
-
-                Logic.Move(2);
             }
             if (network == 2 && Logic.yoursTour == Logic.tour)
             {
                 byte[] byteTime = Encoding.ASCII.GetBytes("2");
                 ns.Write(byteTime, 0, byteTime.Length);
-
-                Logic.Move(2);
             }
+                Logic.Move(2);
+            
         }
 
         private void p4_Click(object sender, MouseEventArgs e)
@@ -125,14 +120,13 @@ namespace KK
             {
                 byte[] byteTime = Encoding.ASCII.GetBytes("3");
                 ns.Write(byteTime, 0, byteTime.Length);
-                Logic.Move(3);
             }
             if (network == 2 && Logic.yoursTour == Logic.tour)
             {
                 byte[] byteTime = Encoding.ASCII.GetBytes("3");
                 ns.Write(byteTime, 0, byteTime.Length);
-                Logic.Move(3);
             }
+            Logic.Move(3);
         }
 
         private void p5_Click(object sender, MouseEventArgs e)
@@ -141,14 +135,13 @@ namespace KK
             {
                 byte[] byteTime = Encoding.ASCII.GetBytes("4");
                 ns.Write(byteTime, 0, byteTime.Length);
-                Logic.Move(4);
             }
             if (network == 2 && Logic.yoursTour == Logic.tour)
             {
                 byte[] byteTime = Encoding.ASCII.GetBytes("4");
                 ns.Write(byteTime, 0, byteTime.Length);
-                Logic.Move(4);
             }
+            Logic.Move(4);
         }
 
         private void p6_Click(object sender, MouseEventArgs e)
@@ -157,14 +150,13 @@ namespace KK
             {
                 byte[] byteTime = Encoding.ASCII.GetBytes("5");
                 ns.Write(byteTime, 0, byteTime.Length);
-                Logic.Move(5);
             }
             if (network == 2 && Logic.yoursTour == Logic.tour)
             {
                 byte[] byteTime = Encoding.ASCII.GetBytes("5");
                 ns.Write(byteTime, 0, byteTime.Length);
-                Logic.Move(5);
             }
+            Logic.Move(5);
         }
 
         private void p7_Click(object sender, MouseEventArgs e)
@@ -173,14 +165,13 @@ namespace KK
             {
                 byte[] byteTime = Encoding.ASCII.GetBytes("6");
                 ns.Write(byteTime, 0, byteTime.Length);
-                Logic.Move(6);
             }
             if (network == 2 && Logic.yoursTour == Logic.tour)
             {
                 byte[] byteTime = Encoding.ASCII.GetBytes("6");
                 ns.Write(byteTime, 0, byteTime.Length);
-                Logic.Move(6);
             }
+            Logic.Move(6);
         }
 
         private void p8_Click(object sender, MouseEventArgs e)
@@ -189,14 +180,13 @@ namespace KK
             {
                 byte[] byteTime = Encoding.ASCII.GetBytes("7");
                 ns.Write(byteTime, 0, byteTime.Length);
-                Logic.Move(7);
             }
             if (network == 2 && Logic.yoursTour == Logic.tour)
             {
                 byte[] byteTime = Encoding.ASCII.GetBytes("7");
                 ns.Write(byteTime, 0, byteTime.Length);
-                Logic.Move(7);
             }
+            Logic.Move(7);
         }
 
         private void p9_Click(object sender, MouseEventArgs e)
@@ -205,14 +195,13 @@ namespace KK
             {
                 byte[] byteTime = Encoding.ASCII.GetBytes("8");
                 ns.Write(byteTime, 0, byteTime.Length);
-                Logic.Move(8);
             }
             if (network == 2 && Logic.yoursTour == Logic.tour)
             {
                 byte[] byteTime = Encoding.ASCII.GetBytes("8");
                 ns.Write(byteTime, 0, byteTime.Length);
-                Logic.Move(8);
             }
+            Logic.Move(8);
         }
 
         private void SetupServer()
