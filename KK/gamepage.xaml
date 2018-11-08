@@ -1,0 +1,37 @@
+﻿<Page x:Class="KK.Gamepage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KK"
+        mc:Ignorable="d"
+        Height="450" Width="800">
+
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="399.6" Margin="0" VerticalAlignment="Top" Width="400" MaxHeight="400" MaxWidth="400">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
+
+            <Image x:Name="p1" x:FieldModifier="public" HorizontalAlignment="Left" Height="123" Margin="10,10,0,0" VerticalAlignment="Top" Width="123" Stretch="Fill" MouseLeftButtonDown="p1_Click" />
+            <Image x:Name="p2" x:FieldModifier="public" Grid.Column="1" HorizontalAlignment="Left" Height="123" Margin="10,10,0,0" VerticalAlignment="Top" Width="123" Stretch="Fill" MouseLeftButtonDown="p2_Click"/>
+            <Image x:Name="p3" x:FieldModifier="public" Grid.Column="2" HorizontalAlignment="Left" Height="123" Margin="10,10,0,0" VerticalAlignment="Top" Width="123" Stretch="Fill" MouseLeftButtonDown="p3_Click"/>
+            <Image x:Name="p4" x:FieldModifier="public" HorizontalAlignment="Left" Height="123" Margin="10,10,0,0" VerticalAlignment="Top" Width="123" Grid.Row="1" Stretch="Fill" MouseLeftButtonDown="p4_Click"/>
+            <Image x:Name="p5" x:FieldModifier="public" Grid.Column="1" HorizontalAlignment="Left" Height="123" Margin="10,10,0,0" VerticalAlignment="Top" Width="123" Grid.Row="1" Stretch="Fill" MouseLeftButtonDown="p5_Click"/>
+            <Image x:Name="p6" x:FieldModifier="public" Grid.Column="2" HorizontalAlignment="Left" Height="123" Margin="10,11,0,0" VerticalAlignment="Top" Width="123" Grid.Row="1" Stretch="Fill" MouseLeftButtonDown="p6_Click"/>
+            <Image x:Name="p7" x:FieldModifier="public" HorizontalAlignment="Left" Height="123" Margin="10,10,0,0" VerticalAlignment="Top" Width="123" Grid.Row="2" Stretch="Fill" MouseLeftButtonDown="p7_Click"/>
+            <Image x:Name="p8" x:FieldModifier="public" Grid.Column="1" HorizontalAlignment="Left" Height="123" Margin="9,10,0,0" VerticalAlignment="Top" Width="123" Grid.Row="2" Stretch="Fill" MouseLeftButtonDown="p8_Click"/>
+            <Image x:Name="p9" x:FieldModifier="public" Grid.Column="2" HorizontalAlignment="Left" Height="123" Margin="10,10,0,0" VerticalAlignment="Top" Width="123" Grid.Row="2" Stretch="Fill"  MouseLeftButtonDown="p9_Click"/>
+        </Grid>
+        <Image x:Name="p0" x:FieldModifier="public" HorizontalAlignment="Left" Height="100" Margin="482,10,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="newgame" Content="Nowa gra" HorizontalAlignment="Left" Margin="587,10,0,0" VerticalAlignment="Top" Width="75" Click="clear_Click"/>
+        <Button x:Name="menu" Click="menu_Click" Content="menu" HorizontalAlignment="Left" Margin="689,10,0,0" VerticalAlignment="Top" Width="75"/>
+    </Grid>
+</Page>

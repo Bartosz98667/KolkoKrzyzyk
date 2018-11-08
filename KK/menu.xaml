@@ -1,0 +1,19 @@
+﻿<Page x:Class="KK.Menu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KK"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Menu">
+
+    <Grid>
+        <Grid Margin="0,0,0,0">
+            <Button x:Name="vs" Content="1 vs 1" HorizontalAlignment="Left" Margin="366,101,0,0" VerticalAlignment="Top" Width="76" Click="vs_Click"/>
+            <Button x:Name="ai" Content="vs AI" HorizontalAlignment="Left" Margin="366,126,0,0" VerticalAlignment="Top" Width="75" Click="ai_Click"/>
+            <Button x:Name="online" Content="Online" HorizontalAlignment="Left" Margin="366,151,0,0" VerticalAlignment="Top" Width="75" Click="Online_Click"/>
+        </Grid>
+
+    </Grid>
+</Page>
